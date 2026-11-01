@@ -5,5 +5,5 @@
     $dbPassword = "";
     $dbDatabase = "tms_db";
 
-    $connection = mysqli_connect($dbServer, $dbUsername, $dbPassword);
+    $connection = mysqli_connect($dbServer, $dbUsername, $dbPassword, $dbDatabase);
 ?>
